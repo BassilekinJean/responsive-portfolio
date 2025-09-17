@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASSILEKIN JEAN SIMONET - Administrateur Système et Réseau & Développeur Full Stack</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt; BJ_BASILE / &gt;</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-fr="Accueil" data-en="Home">Accueil</a>
+                <a href="#about" class="nav-link" data-fr="À propos" data-en="About">À propos</a>
+                <a href="#skills" class="nav-link" data-fr="Compétences" data-en="Skills">Compétences</a>
+                <a href="#projects" class="nav-link" data-fr="Projets" data-en="Projects">Projets</a>
+                <a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a>
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <span id="lang-text">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+        <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting" data-fr="Salut, je suis" data-en="Hi, I'm">Salut, je suis</span>
+                        <span class="name">BASSILEKIN JEAN SIMONET</span>
+                    </h1>
+                    <p class="hero-subtitle" data-fr="Développeur Full Stack & Expert en Sécurité Informatique" data-en="Full Stack Developer & Cybersecurity Expert">
+                        Développeur Full Stack Junior & Administrateur SR
+                    </p>
+                    <p class="hero-description" data-fr="Étudiant en informatique niveau 3 à l'Université de Yaoundé 1, passionné par le développement web, l'administration des systèmes et réseaux informatique." data-en="Level 3 Computer Science student at University of Yaoundé 1, passionate about web development, networks and systems administration.">
+                        Étudiant en informatique niveau 3 à l'Université de Yaoundé 1, passionné par le développement web, l'administration des systèmes et réseaux informatique.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-fr="Voir mes projets" data-en="View My Work">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary" data-fr="Me contacter" data-en="Contact Me">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="./image/img.jpeg" alt="BASSILEKIN JEAN SIMONET" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+        <div class="hero-bg-animation">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-fr="À propos de moi" data-en="About Me">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-fr="Je suis Bassilekin Jean Simonet, né à Yaoundé, Cameroun. Actuellement étudiant en informatique niveau 3 à l'Université de Yaoundé 1 avec un Bac+2 en informatique." data-en="I am Bassilekin Jean Simonet, born in Yaoundé, Cameroon. Currently a level 3 computer science student at University of Yaoundé 1 with a GCE+2 in Computer Network.">
+                        Je suis Bassilekin jean Simonet, né à Yaoundé, Cameroun. Actuellement étudiant en informatique niveau 3 à l'Université de Yaoundé 1 avec un Bac+2 en informatique.
+                    </p>
+                    <p data-fr="Passionné par la technologie, je me spécialise dans le développement full stack, la sécurité informatique, les réseaux et le design graphique. Mon objectif est de créer des solutions innovantes qui résolvent des problèmes réels." data-en="Passionate about the connectivity offered by the internet and the functionality of the applications I use, I specialize in system and network administration, computer security, and web development. My goal is to create innovative solutions that address the core issues of today.">
+                        Passionné par la connectivité qu'offre internet et le fonctionement des applications que j'utilise, je me spécialise dans l'administration système et réseau, la sécurité informatique et le développement web. Mon objectif est de créer des solutions innovantes qui touchent au coeur des problématiques actuelle.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label" data-fr="Années d'expérience" data-en="Years Experience">Années d'expérience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label" data-fr="Technologies maîtrisées" data-en="Technologies Mastered">Technologies maîtrisées</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label" data-fr="Projets réalisés" data-en="Projects Completed">Projets réalisés</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-fr="Mes Compétences" data-en="My Skills">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-fr="Developpement web" data-en="Web Development">Development WEB</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Frappé Framework</span>
+                            <div class="skill-level" data-level="45"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 data-fr="Déploiement & DevOps" data-en="Deployment & DevOps">Déploiement & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-level" data-level="55"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                            <div class="skill-level" data-level="10"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                            <div class="skill-level" data-level="7"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-fr="Bases de Données" data-en="Databases">Bases de Données</h3>
+                    <div class="skill-items">
+
+                        <div class="skill-item">
+                            <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL Logo" style="width:24px; height:24px; vertical-align:middle; margin-right:8px;">
+                            <span>MySQL</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i> <!-- pour PostgreSQL -->
+                            <span>PostgreSQL</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i> <!-- MongoDB -->
+                            <span>MariaDB</span>
+                            <div class="skill-level" data-level="50"></div>
+                        </div>
+                       <div class="skill-item">
+                            <i class="fas fa-leaf"></i> <!-- MongoDB -->
+                            <span>Redis</span>
+                            <div class="skill-level" data-level="50"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>H2</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-fr="Spécialisations" data-en="Specializations">Spécialisations</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span data-fr="Réseaux Informatiques" data-en="Computer Networks">Réseaux Informatiques</span>
+                            <div class="skill-level" data-level="65"></div>
+                        </div> 
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <span data-fr="Design Graphique" data-en="Graphic Design">Systèmes Informatique</span>
+                            <div class="skill-level" data-level="45"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span data-fr="Sécurité Informatique" data-en="Cybersecurity">Sécurité des réseaux et applications web</span>
+                            <div class="skill-level" data-level="45"></div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-fr="language de programmation" data-en="programming language">language de programmation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="45"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C/C++</span>
+                            <div class="skill-level" data-level="60"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-fr="Mes Projets" data-en="My Projects">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/devis-generator.png" alt="Invoice generator" class="project-img" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir le site"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/BassilekinJean/Invoice-generator-V1.0" class="project-link" title="Code source"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-fr="Site de génération de devis professionel" data-en="Professional Quote generator">Site de génération de devis professionel</h3>
+                        <p data-fr="Plateforme en ligne pour générer vos devis pro avec une sauvegarde de vos devis pour pouvoir y accéder à tout moment." 
+                        data-en="Online platform to generate your professional quotes with a backup of your quotes so you can access them at any time.">
+                          Plateforme en ligne pour générer vos devis pro avec une sauvegarde de vos devis pour pouvoir y accéder à tout moment.
+                        </p>
+                        <div class="project-tech">
+                            <span>SpringBoot</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/job-scraper.png" alt="API Spring Boot" class="project-img" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir l'API" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/BassilekinJean/Job-scraper-237" class="project-link" title="Code source" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-fr="API Spring Boot de Gestion" data-en="Spring Boot Job Scraper API">
+                            API Spring Boot de Scraping de Jobs
+                        </h3>
+                        <p data-fr="API RESTful développée avec Spring Boot pour centraliser les offres d'emplois dispersser dans différents sites d'annonceurs." 
+                        data-en="RESTful API developed with Spring Boot to centralize job offers scattered across different advertiser sites.">
+                            API RESTful développée avec Spring Boot pour centraliser les offres d'emplois dispersser dans différents sites d'annonceurs.
+                        </p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>PostgreSQL</span>
+                            <span>REST API</span>
+                            <span>Swagger</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-fr="Contactez-moi" data-en="Contact Me">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-fr="Localisation" data-en="Location">Localisation</h4>
+                            <p>Yaoundé, Cameroun</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>bassilekinjean@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-fr="Téléphone" data-en="Phone">Téléphone</h4>
+                            <p>+237 6 72 45 81 98</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/myzdgqjd" method="POST">
+                    <div class="form-group">
+                        <input type="text" name ="name" placeholder="Votre nom" data-fr-placeholder="Votre nom" data-en-placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name = "email" placeholder="Votre email" data-fr-placeholder="Votre email" data-en-placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message"  name ="message" data-fr-placeholder="Votre message" data-en-placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-fr="Envoyer le message" data-en="Send Message">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 BASSILEKIN JEAN SIMONET. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/BassilekinJean" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/+237672458198" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/jean-simonet-bassilekin/" class="social-link"><i class="fab fa-linkedin-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
